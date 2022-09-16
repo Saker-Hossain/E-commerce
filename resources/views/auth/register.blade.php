@@ -19,7 +19,7 @@
                 <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
             </div>
             <!-- UserName -->
-            <div>
+            <div class="mt-4">
                 <x-label for="name" :value="__('Username')" />
 
                 <x-input id="username" class="block mt-1 w-full" type="text" name="username" :value="old('username')" required autofocus />
